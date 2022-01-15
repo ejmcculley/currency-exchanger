@@ -1,0 +1,13 @@
+#main {
+  display: none;
+}
+
+body {
+  background-color: rgb(245, 242, 235);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: rgb(5, 5, 97)
+}
