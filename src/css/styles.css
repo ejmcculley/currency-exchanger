@@ -7,7 +7,41 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+#splash::after, #splash::before {
+  position: absolute;
+  content: '';
+  width: 50%;
+  height: 50%;
+  background: rgb(253, 185, 59);
+  opacity: 25%;
+}
+
+#splash::after {
+  left: 50%;
+  bottom: -25%;
+  transform: skew(0, 45deg);
+}
+  
+#splash::before {
+    right: 50%;
+    bottom: -25%;
+    transform: skew(0, -45deg);
+}
+
 h1 {
   font-family: 'Lobster', cursive;
   color: rgb(5, 5, 97)
 }
+
+h3 {
+  color: rgb(253, 185, 59)
+}
+
+#enter {
+  margin-top: 5%;
+}
+
+#title {
+  margin-top: 10%;
+}
+
