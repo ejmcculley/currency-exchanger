@@ -24,8 +24,6 @@
 
 _This is an Asynchrony and APIs project for Epicodus. The application should use an exchange rate API to take in user input for an amount in USD and convert it to at least five other currencies. 
 
-[Check out my Github Pages Link!](https://ejmcculley.github.io/currency-exchanger/)
-
 ## Setup/Installation Requirements
 
 _To clone this repository:_
