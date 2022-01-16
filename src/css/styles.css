@@ -45,3 +45,22 @@ h3 {
   margin-top: 10%;
 }
 
+#header {
+  background-color: rgb(5, 5, 97);
+  margin-bottom: 3%;
+}
+
+#headerTitle {
+  color: rgb(245, 242, 235);
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+#window {
+  background-color: white;
+  padding-top: 3%;
+  padding-bottom: 20%;
+}
+

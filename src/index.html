@@ -26,41 +26,48 @@
     </div>
   </div>
   <div id="main">
-    <div class="container">
+    <div class="container" id="header">
       <div class="row">
         <div class="d-flex justify-content-center">
-          <h1 style="font-size:10vw">Cheddar</h1>
+          <h1 style="font-size:10vw" id="headerTitle">Cheddar</h1>
         </div>
       </div>
-      <hr>
+    </div>
+    <div class="container">
       <div class="d-flex justify-content-center">
         <div class="row">
           <p>Enter the amount of money in USD you would like to exchange. Choose from the exchange options below. Cheddar is a zero interest loan, and exchange platform.</p>
         </div>
       </div>
-      <div class="container" id="locations">
-        <div class="d-flex justify-content-center">
-          <div class="row">
-            <div class="col">
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <button class="btn btn-outline-secondary" type="button">Button</button>
-                </div>
-                <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+    </div>
+    <div class="container" id="window">
+      <div class="d-flex justify-content-center">
+        <div class="row">
+          <div class="col">
+            <p>Amount in USD</p>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <button class="btn btn-danger" type="button">Exchange</button>
               </div>
-              <select class="form-select" aria-label="Default select example">
-                <option selected>Select Currency</option>
-                <option value="1">Japanese Yen (JPY)</option>
-                <option value="2">Euro (EUR)</option>
-                <option value="3">Thai Baht (THB)</option>
-                <option value="4">Danish Krone (DKK)</option>
-                <option value="5">Uruguayan Peso (UYU)</option>
-              </select>
+              <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
             </div>
+          </div>
+          <div class="col">
+            <p>To</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select Currency</option>
+              <option value="1">Japanese Yen (JPY)</option>
+              <option value="2">Euro (EUR)</option>
+              <option value="3">Thai Baht (THB)</option>
+              <option value="4">Danish Krone (DKK)</option>
+              <option value="5">Uruguayan Peso (UYU)</option>
+            </select>
           </div>
         </div>
       </div>
+      </div>
     </div>
+    <div class="showExchange"></div>
     <div class="showErrors"></div>
   </div>
 </body>
