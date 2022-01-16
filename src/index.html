@@ -47,28 +47,29 @@
             <p>Amount in USD</p>
             <div class="input-group mb-3">
               <div class="input-group-prepend">
-                <button class="btn btn-danger" type="button">Exchange</button>
+                <button class="btn btn-danger" type="button" id="exchange">Exchange</button>
               </div>
-              <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+              <input type="text" class="form-control" placeholder="Enter Amount" aria-label="" aria-describedby="basic-addon1" id="inputAmount">
             </div>
           </div>
           <div class="col">
             <p>To</p>
-            <select class="form-select" aria-label="Default select example">
+            <select class="form-select" aria-label="Default select example" id="exchangeCurrency">
               <option selected>Select Currency</option>
-              <option value="1">Japanese Yen (JPY)</option>
-              <option value="2">Euro (EUR)</option>
-              <option value="3">Thai Baht (THB)</option>
-              <option value="4">Danish Krone (DKK)</option>
-              <option value="5">Uruguayan Peso (UYU)</option>
+              <option value="JPY">Japanese Yen (JPY)</option>
+              <option value="EUR">Euro (EUR)</option>
+              <option value="THB">Thai Baht (THB)</option>
+              <option value="DKK">Danish Krone (DKK)</option>
+              <option value="UYU">Uruguayan Peso (UYU)</option>
             </select>
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="showExchange"></div>
+        <div class="showErrors"></div>
       </div>
     </div>
-    <div class="showExchange"></div>
-    <div class="showErrors"></div>
   </div>
 </body>
 </html>
